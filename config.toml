@@ -1,0 +1,93 @@
+baseURL = "https://yusufsa.github.io"
+languageCode = "en-us"
+title = "Yusuf Ahmad"
+theme = "avicenna"
+googleAnalytics = "UA-1234-6"
+timeout=3000
+
+[params]
+  subtitle= "Graduate Student"
+  interests="Lots! Currently learning how to sail and refining my take on jollof."
+  cv_name= "YusufAhmad_CV.pdf"
+  blog="http://myblog.edu"
+
+[[params.affilation]]
+  name = "MIT Media Lab - Lifelong Kindergarten"
+  position = "Graduate RA"
+  contact = "yusufa (at) mit (dot) edu"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/yusuf989"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/jugaadnyc"
+
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/yusufahmad/"
+
+
+[[params.introduction.paragraph]]
+  text="""I'm currently a graduate student in the MIT Media Lab's Lifelong Kindergarten Group. My research explores approaches to expand opportunities for learning by creating for people of all ages - especially young people from low-income backgrounds. I also advise MIT startups through the Sandbox Innovation Fund.
+   """
+[[params.introduction.paragraph]]
+  text="""
+  My previous work has taken me from higher education reform in Egypt during the Arab Spring to helping launch the African Leadership University (ALU)- a pan African network of universities and accelerators (Mauritius, Rwanda, Kenya, and South Africa).  
+
+  """
+
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "Tinkerables: Crafting remixable, explorable, hackable learning resources"
+		description  = "While we're increasingly flooded with a range of learning materials (content is ubuiqitious, right?), it can be increasingly hard to find the signal in the noise - and to really dig into what you do end up finding. In many respects, our materials for sharing and learning with and from one another remain quite limited. This project explores ways to make learning resources easier to 'see inside', disassemble, reconfigure, and appropriate - i.e. remix or hack. "
+		project_page = "https://tinkerables.media.mit.edu"
+
+ [[params.projects.project]]
+		name = "Re-imagining learning communities and schools"
+		description  = "What might the future of school and learning look like? I've been exploring innovative models for learning across formal K-12, higher-ed, informal spaces, and unschooling / self-directed communities. This project documents some of my observations and reflections from this journey."
+		project_page = "https://drive.google.com/drive/folders/1ttPxEGvdYmXYrSati_vAzzhOf6-qcGif"
+		blog_link = ""
+
+ [[params.projects.project]]
+		name = "Supporting a global volunteer community in localizing / translating Scratch"
+		description  = "For the last decade, our group has engaged a global community of volunteers in translating and localizing Scratch to a range of contexts - and 59 languages. This project explores the principles that have guided our translation efforts, lessons we've learned, and ideas for strengthening ongoing translation and localization efforts. "
+		project_page = "https://docs.google.com/document/d/1hbHTsu4sqYpxIqYB1h8BEVUIb70Jvr4-uv1n8_8E0sA/edit#"
+		code_link = "https://github.com/LLK/scratch-l10n"
+		blog_link = "https://github.com/LLK/scratch-l10n/wiki"
+
+
+[[params.publications]]
+  year="2018 - Media Lab"
+
+    [[params.publications.paper]]
+        name = "CivicLink"
+        authors = " In the buildup to the 2018 midterm elections, we prototyped a local online community that aggregates local civic events and supported online conversation around those events. __Yusuf Ahmad__, Shaurya Agarwal, Oceane Boulais, Brittany Johnson, Jacob Kohn, Léo Mebazza, Ann O'Connell"
+        dest  = "Viral Political Action"
+        link = "http://civiclink.herokuapp.com/"
+        code_link = "https://github.com/oceaneboulais/civiclink"
+
+    [[params.publications.paper]]
+		name = "Learning Creative Learning"
+		authors = "During Fall 2018, I co-designed and co-facilitated the Media Lab's online Learning Creative Learning course and community. We experimented with distributed facilitation (recruiting and supporting a team of volunteer facilitators for the course from across the world), different strategies for developing and growing an online community (Slack, Discourse, Unhangouts, and a host of interaction strategies across these platforms), and approaches to supporting a global community in bringing more creative approaches to learning to their communities (from Mexico and Canada to the Netherlands and South Africa)"
+		dest  = "(ALU)"
+		link = "https://www.alueducation.com"
+		code_link = ""
+		blog_link = ""
+
+[[params.publications]]
+ year="2014-2018: ALU"
+
+  [[params.publications.paper]]
+		name = "The African Leadership University"
+		authors = "At ALU, we sought to reimagine higher ed from the ground up - remixing ideas from institutions like 42, Ashesi, BYU Idaho, Minerva, CODE Berlin, High Tech High, and Makerere Institute for Social Research as we grappled with pedagogy, ‘mathetics’ (Seymour Papert’s term for how students learn), the multi-faceted roles of faculty and learners, competency-based outcomes, portfolios, and pathways to employment – all while trying to dramatically lower costs and create a more equitable environment."
+		dest  = "(ALU)"
+		link = "https://www.alueducation.com"
+		code_link = ""
+		blog_link = ""
